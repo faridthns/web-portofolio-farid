@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Orbitron:wght@400;700;900&display=swap");
+
+@font-face {
+  font-family: WalsheimBold;
+  src: url("../public/font/Walsheim-Bold.otf");
+}
+
+@font-face {
+  font-family: WalsheimMedium;
+  src: url("../public/font/Walsheim-Medium.otf");
+}
+
+* {
+  font-family: "WalsheimMedium", sans-serif;
+}
+
+body {
+  /* background: url("../public/images/bg-new.jpg");
+  background-size: cover; */
+  background-color: #ECDFCC;
+  overflow-x: hidden;
+}
+
+.active {
+  background: linear-gradient(45deg, #697565 20%, #ECDFCC 70%);
+  border-radius: 50%;
+  color: #181C14;
+}
+
+.text-gradient {
+  @apply bg-gradient-to-r text-transparent bg-clip-text from-[#FF6500] to-[#697565] font-bold;
+}
+
+.bg-gradient {
+  background: linear-gradient(
+    92.23deg,
+    #697565 21.43%,
+    #181C14 50.63%,
+    #3C3D37 100%,
+    #ECDFCC 117.04%
+  );
+}
+.section {
+  @apply py-8 lg:py-24 lg:h-screen flex items-center;
+}
