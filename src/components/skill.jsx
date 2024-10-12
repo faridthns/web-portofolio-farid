@@ -9,8 +9,8 @@ export default function Skill(props) {
         <img src={props.img} alt={props.lang} />
         <div className="absolute p-5 backdrop-blur-xl bg-mygreen w-full h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linear border-solid border-3 border-myprimary">
           <div className="text-center w-full text-myprimary ">
-            <div className="bg-myprimary rounded-full px-5 py-1 inline-block mb-2">
-              <h4 className="text-plus">{props.lang}</h4>
+            <div className="bg-myprimary w-full rounded-full px-2 py-2 lg:py-1 inline-block mb-2">
+              <h4 className="text-plus text-xs lg:text-base">{props.lang}</h4>
             </div>
             {/* <p>Lorem ipsum dolor sit amet.</p> */}
           </div>

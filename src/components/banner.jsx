@@ -34,12 +34,12 @@ export default function Banner() {
             </div>
           </div>
           <div
-            className="max-w-[750px] text-center text-base mx-auto mt-5"
+            className="max-w-[90vw] text-center text-base mx-auto mt-5"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            Selamat datang di portofolio saya! Saya adalah seorang Web Developer dengan fokus utama pada pengembangan aplikasi berbasis web. Dengan pengetahuan yang saya dapat dari perkuliahan dan beberapa pengalaman di industri ini, saya berkomitmen untuk memberikan solusi teknologi yang inovatif dan dapat diandalkan. Selain itu, saya juga tertarik dalam eksplorasi teknologi baru dan selalu siap untuk tantangan baru dalam pengembangan perangkat lunak. Selamat menikmati portofolio saya di sini dan jangan ragu untuk menghubungi saya untuk proyek atau peluang kerja!
-            <br /> Terima kasih.
+            Halo semua! Saya seorang web developer yang hobi ngulik teknologi terbaru. Selalu berusaha bikin website yang gak cuma keren, tapi juga mudah digunakan. Punya pengalaman di beberapa proyek dan siap buat kerjasama bareng kamu!
+            <br /> Yuk, kita terhubung.
           </div>
         </div>
       </div>

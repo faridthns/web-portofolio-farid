@@ -25,7 +25,7 @@ export default function Portfolio() {
             data-aos-duration="1000"
           >
             <h2 className="text-gradient font-primary max-w-[700px] mx-auto text-[50px]">
-              03
+              04
             </h2>
             <h2>Completed Projects</h2>
           </div>
@@ -39,7 +39,7 @@ export default function Portfolio() {
           />
           <Projects
             type="Guest Registration"
-            desc="PT. Riscon Victory Guest Management & Attendance Website"
+            desc="Riscon Guest Book & Attendance Website"
             img="/images/tamu.riscon.png"
             link="https://tamu.riscongroup.id/"
           />

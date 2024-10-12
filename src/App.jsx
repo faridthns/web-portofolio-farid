@@ -7,6 +7,7 @@ import Banner from "./components/banner";
 import Profile from "./components/profile";
 import Portfolio from "./components/portfolio";
 import Footer from "./components/footer";
+import Contact from "./components/contact";
 
 function App() {
     useEffect(() => {
@@ -19,6 +20,7 @@ function App() {
       <Banner />
       <Profile />
       <Portfolio />
+      <Contact />
       <Footer />
     </div>
   )
