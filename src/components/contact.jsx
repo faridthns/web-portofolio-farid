@@ -14,7 +14,7 @@ export default function Contact() {
                         Let&apos;s Connect 
                     </h4>
                     <div className="text-gradient text-[24px]">
-                    Punya ide projek baru, atau butuh Web Developer di tim anda. Jangan ragu untuk menghubungiku melalui kontak di bawah ini.
+                    Punya ide projek baru, atau butuh Web Developer di tim kamu. Jangan ragu untuk menghubungiku melalui kontak di bawah ini.
                     </div>
                 </div>
                 <div className="mx-auto flex justify-center object-center px-4 py-16  lg:max-w-7xl">

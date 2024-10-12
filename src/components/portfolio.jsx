@@ -4,7 +4,7 @@ import Projects from "./projects"
 
 export default function Portfolio() {
   return (
-    <div id="portofolio" className="section mb-[100px] border-none lg:mb-[0px] lg:border-solid border-b-4 border-myprimary">
+    <div id="portofolio" className="section mb-[100px] lg:mb-[0px] border-solid border-b-4 border-myprimary">
       <div className="container mx-auto max-w-[1000px] px-3 pt-3 pb-[20px]">
         <div className="flex flex-col lg:align-center lg:flex-row justify-between mb-[50px]">
           <div
