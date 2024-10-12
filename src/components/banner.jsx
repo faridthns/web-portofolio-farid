@@ -34,7 +34,7 @@ export default function Banner() {
             </div>
           </div>
           <div
-            className="max-w-[90vw] text-center text-base mx-auto mt-5"
+            className="max-w-[90vw] font-bold text-center text-base mx-auto mt-5"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
