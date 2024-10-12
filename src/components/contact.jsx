@@ -4,7 +4,7 @@ import Socialmedia from "./socialmedia";
 
 export default function Contact() {
     return (
-        <div id="contact" className="py-3 border-none lg:mb-[0px] lg:border-solid border-b-4 border-myprimary">
+        <div id="contact" className="mb-[100px] lg:mb-[0px] py-3 border-none lg:mb-[0px] lg:border-solid border-b-4 border-myprimary">
             <div className="container mx-auto max-w-[1000px] px-3 py-[50px]">
                 <div 
                   data-aos="fade-up"
