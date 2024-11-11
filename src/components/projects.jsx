@@ -21,6 +21,8 @@ export default function Projects(props) {
             >
               To Link...
             </a>
+            <br></br>
+            <span className="text-sm text-myprimary">Tech : {props.tech}</span>
           </div>
         </div>
       </div>

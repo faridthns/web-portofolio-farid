@@ -36,24 +36,28 @@ export default function Portfolio() {
             desc="NFT Mint Page"
             img="/images/seikeleton.png"
             link="https://seikeleton.vercel.app/"
+            tech="React JS, Vite JS"
           />
           <Projects
             type="Guest Registration"
-            desc="Riscon Guest Book & Attendance Website"
+            desc="Riscon Guest & Attendance Website"
             img="/images/tamu.riscon.png"
             link="https://tamu.riscongroup.id/"
+            tech="CodeIgniter, Bootstrap, MySql"
           />
           <Projects
             type="E-Commerce"
             desc="CV. Ginsadv Official Website"
             img="/images/ginsadv.jpg"
             link="https://ginsadv.id/"
+            tech="CodeIgniter, Bootstrap, MySql, JQuery"
           />
           <Projects
             type="Weather App"
             desc="Web Ramalan Cuaca"
             img="/images/webcuaca.png"
             link="https://webcuaca.netlify.app/"
+            tech="React JS"
           />
         </div>
       </div>
