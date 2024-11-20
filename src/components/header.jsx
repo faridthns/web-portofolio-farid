@@ -1,10 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React from "react"
-import { BsGithub, BsLinkedin } from "react-icons/bs"
 
 export default function Header() {
   return (
-    <div className="text-mycream header">
+    <div className="text-mycream header border-y-4 border-myprimary">
       <div className="container mx-auto max-w-[1000px] px-3 left-0 right-0">
         <div className="flex justify-between py-5 items-center">
           <div
@@ -14,8 +13,7 @@ export default function Header() {
             data-aos-easing="ease-in-sine"
           >
             <a href="/">
-              <h1 className="text-[30px] leading-none font-bold">FARID</h1>
-              <h4 className="font-normal leading-none">RAMADHAN</h4>
+              <h1 className="bouncy text-4xl">Farid Ramadhan.</h1>
             </a>
           </div>
           <div

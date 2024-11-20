@@ -7,6 +7,7 @@ export default function Footer() {
   return (
     <div className="hidden lg:block text-center p-5 bg-mysecondary text-mycream">
       &copy; {tahunSekarang} By Farid Ramadhan{" "}
+      <p>Portofolio ini saya buat dengan React JS dan Tailwind CSS</p>
     </div>
   )
 }

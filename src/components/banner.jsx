@@ -7,14 +7,15 @@ export default function Banner() {
     <div className="border-solid border-b-4 border-mysecondary">
       <div
         id="home"
-        className="section container mx-auto max-w-[1000px] px-3 items-center text-black"
+        className="py-0 px-4 section container mx-auto max-w-[1000px] items-center text-black"
       >
-        <div className="w-full">
-          <div
-            className="block text-center font-secondary text-[30px]"
-            data-aos="zoom-in"
-            data-aos-duration="1000"
-          >
+        <div 
+          className="w-full bg-mygreen2 border-4 border-myprimary p-6 rounded-3xl overflow-hidden"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
+          <img src="/images/rocket-space.png" alt="rocket" className="absolute max-w-24 -z-50 left-0 top-0" />
+          <div className="block text-center font-secondary text-[30px]">
             Hello, I am Farid Ramadhan
             <div>
               <TypeAnimation
@@ -28,7 +29,7 @@ export default function Banner() {
                 ]}
                 wrapper="span"
                 speed={50}
-                className="ml-3 text-gradient"
+                className="rokkit font-bold text-[#1E3E62] ml-3"
                 repeat={Infinity}
               />
             </div>

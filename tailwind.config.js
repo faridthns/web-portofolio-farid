@@ -10,6 +10,7 @@ export default {
         'myprimary' : '#181C14',
         'mysecondary' : '#3C3D37',
         'mygreen' : '#697565',
+        'mygreen2' : '#5F6F65',
         'mycream' : '#ECDFCC',
         'plus' : '#FF6500',
       }

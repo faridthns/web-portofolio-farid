@@ -13,6 +13,16 @@
   src: url("../public/font/Walsheim-Medium.otf");
 }
 
+@font-face {
+  font-family: Bouncy;
+  src: url("../public/font/JunigardenSwash.otf");
+}
+
+@font-face {
+  font-family: Rokkit;
+  src: url("../public/font/Rokkitt-Medium.ttf");
+}
+
 * {
   font-family: "WalsheimMedium", sans-serif;
   cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><path fill="%23FF6500" stroke="%23181C14" stroke-width="2.75" d="M5.5 3.21V20.8c0 .45.54.67.85.35l4.86-4.86a.5.5 0 0 1 .35-.15h6.87a.5.5 0 0 0 .35-.85L6.35 2.85a.5.5 0 0 0-.85.35Z"></path></svg>'), auto;
@@ -44,6 +54,7 @@ a, .navigation {
 
 .text-gradient {
   @apply bg-gradient-to-r text-transparent bg-clip-text from-[#FF6500] to-[#697565] font-bold;
+  margin: 0;
 }
 
 .bg-gradient {
@@ -73,4 +84,12 @@ a, .navigation {
   background: #697565;
   border: 2px #181C14 solid;
   border-radius:10px;
+}
+
+.bouncy {
+  font-family: Bouncy;
+}
+
+.rokkit {
+  font-family: "Rokkit", sans-serif;
 }

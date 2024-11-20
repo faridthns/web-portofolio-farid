@@ -25,7 +25,7 @@ export default function Profile() {
             data-aos="fade-right"
             data-aos-duration="1000"
           >
-            <div className="w-[300px] h-[300px] bg-mygreen pt-[20px] rounded-full overflow-hidden mx-auto">
+            <div className="w-[300px] h-[300px] bg-mygreen pt-[20px] rounded-full overflow-hidden mx-auto  grayscale hover:grayscale-0 transition-all">
               <img src="/images/farid 1x1.png" alt="" />
             </div>
             <h2 className="text-gradient text-[50px]">Farid Ramadhan</h2>

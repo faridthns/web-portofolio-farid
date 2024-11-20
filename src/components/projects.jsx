@@ -3,6 +3,7 @@
 import React from "react"
 
 export default function Projects(props) {
+
   return (
     <div className="w-full" data-aos="flip-left" data-aos-duration="1000">
       <div className="bg-mysecondary border-solid border-4 border-myprimary h-full w-full justify-center items-center flex rounded-lg overflow-hidden p-5 relative group ">
@@ -23,6 +24,10 @@ export default function Projects(props) {
             </a>
             <br></br>
             <span className="text-sm text-myprimary">Tech : {props.tech}</span>
+              {/* {lang.map((name, index) => (
+              <img key={index} src={`/images/${name}`} alt={name} width="50"/>
+              <img key={index} src={`/images/${name}`} alt={name} width="50"/>
+              ))} */}
           </div>
         </div>
       </div>
