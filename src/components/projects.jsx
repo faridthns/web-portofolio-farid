@@ -5,10 +5,10 @@ import React from "react"
 export default function Projects(props) {
 
   return (
-    <div className="w-full" data-aos="flip-left" data-aos-duration="1000">
+    <div className="w-full h-80" data-aos="flip-left" data-aos-duration="1000">
       <div className="bg-mysecondary border-solid border-4 border-myprimary h-full w-full justify-center items-center flex rounded-lg overflow-hidden p-5 relative group ">
         <img src={props.img} alt="" />
-        <div className="absolute p-5 bg-mygreen w-full h-full flex items-center opacity-0 group-hover:opacity-100 transition">
+        <div className="absolute p-5 bg-mygreen w-full h-full flex lg:items-center opacity-0 group-hover:opacity-100 transition overflow-auto">
           <div className="text-center w-full text-white mt-[-60px] group-hover:mt-0 transition-all">
             <div className="bg-myprimary rounded-full px-5 inline-block mb-2 ">
               <h4 className="text-plus">{props.type}</h4>

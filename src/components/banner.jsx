@@ -1,6 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react"
 import { TypeAnimation } from "react-type-animation"
+// import { ModelViewerElement } from "@google/model-viewer"
+// import { SimpleViewer } from 'threedviewer';
 
 export default function Banner() {
   return (
@@ -9,6 +11,12 @@ export default function Banner() {
         id="home"
         className="py-0 px-4 section container mx-auto max-w-[1000px] items-center text-black"
       >
+        {/* <div style={{ width: '100vw', height: '100vh' }}>
+          <SimpleViewer object={'https://modelviewer.dev/shared-assets/models/RobotExpressive.glb'} />
+        </div> */}
+        {/* <div className="anim">
+         <ModelViewerElement src="https://model-viewer.dev/assets/gltf/Shuttle.glb" style="width: 300px; height: 300px;" camera-controls auto-rotate auto-rotate-delay="0" rotation-per-second="180deg" autoplay />
+        </div> */}
         <div 
           className="w-full bg-mygreen2 border-4 border-myprimary p-6 rounded-3xl overflow-hidden"
           data-aos="zoom-in"

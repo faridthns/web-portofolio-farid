@@ -4,18 +4,11 @@ import React from "react"
 
 export default function Skill(props) {
   return (
-    <div className="w-[25vw] lg:w-[10vw] mx-auto">
-      <div className="bg-mysecondary h-full justify-center items-center flex rounded-lg overflow-hidden relative p-5 group ">
-        <img src={props.img} alt={props.lang} />
-        <div className="absolute p-5 backdrop-blur-xl bg-mygreen w-full h-full flex items-center opacity-0 scale-0 group-hover:scale-100 group-hover:opacity-100 transition ease-linear border-solid border-3 border-myprimary">
-          <div className="text-center w-full text-myprimary ">
-            <div className="bg-myprimary w-full rounded-full px-2 py-2 lg:py-1 inline-block mb-2">
-              <h4 className="text-plus text-xs lg:text-base">{props.lang}</h4>
-            </div>
-            {/* <p>Lorem ipsum dolor sit amet.</p> */}
-          </div>
-        </div>
+    <div className="w-[25vw] lg:w-[10vw] flex flex-col justify-center">
+      <div className="bg-mysecondary justify-center items-center flex rounded-lg overflow-hidden relative p-3 lg:p-5 group w-[20vw] h-[20vw] lg:w-[10vw] lg:h-[10vw] mx-auto">
+        <img src={props.img} alt={props.lang}/>
       </div>
+      <h4 className="text-mysecondary text-xs lg:text-base">{props.lang}</h4>
     </div>
   )
 }
