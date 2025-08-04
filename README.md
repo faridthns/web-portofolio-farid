@@ -1,8 +1,29 @@
-# React + Vite
+# 🌐 Farid's Web Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built using **React.js**, **Vite.js**, and **Tailwind CSS**.  
+This single-page application showcases my personal profile, tech skills, selected projects, and includes a contact form that delivers messages directly to my email inbox.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Demo
+
+You can check out the live version of this portfolio here:  
+👉 [Live Demo](https://www.faridportfolio.my.id/)
+
+---
+
+## 📌 Features
+
+- 🎯 **Hero Section**: Introduction and tagline
+- 🧠 **Skills Section**: List of technologies and tools I'm familiar with
+- 🛠️ **Projects Section**: Preview of my past works with links
+- 📞 **Contact Section**: Simple form to send messages directly to my email
+- 📱 **Responsive Design**: Optimized for desktop and mobile
+
+---
+
+## 🛠️ Tech Stack
+
+- [React.js](https://reactjs.org/)
+- [Vite.js](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
