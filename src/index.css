@@ -93,3 +93,7 @@ a, .navigation {
 .rokkit {
   font-family: "Rokkit", sans-serif;
 }
+
+.cursor-input {
+  cursor: url("../public/images/cursor-text.png"), auto;
+}

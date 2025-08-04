@@ -6,7 +6,7 @@ import 'animate.css';
 export default function Socialmedia(props) {
     return(
         
-        <div className="group h-40 w-40 [perspective:1000px] animate__fadeInLeftBig" >
+        <div className="group h-[8rem] w-[8rem] [perspective:1000px] animate__fadeInLeftBig" >
             <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                 {/* Front Face */}
                 <div className="absolute inset-0 h-full w-full rounded-xl [backface-visibility:hidden] bg-mygreen border-solid border-4 border-myprimary">
