@@ -8,6 +8,7 @@ import Profile from "./components/profile";
 import Portfolio from "./components/portfolio";
 import Footer from "./components/footer";
 import Contact from "./components/contact";
+import Preloader from "./components/preloader";
 
 function App() {
     useEffect(() => {
@@ -15,13 +16,16 @@ function App() {
     }, [])
   return (
     <div>
-      <Header />
-      <Nav />
-      <Banner />
-      <Profile />
-      <Portfolio />
-      <Contact />
-      <Footer />
+      <Preloader/>
+      <div >
+        <Header />
+        <Nav />
+        <Banner />
+        <Profile />
+        <Portfolio />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   )
 }

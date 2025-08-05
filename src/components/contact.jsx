@@ -19,7 +19,7 @@ export default function Contact() {
                 </div>
                 <div className="lg:flex gap-4">
                     <div className="kontak py-10 lg:p-10 lg:w-[50%]">
-                        <form action="https://formsubmit.co/faridramadhan03@gmail.com" method="POST" className="border-4 border-myprimary bg-mygreen p-10 w-fit mx-auto rounded-md" autoComplete="off">
+                        <form action="https://formsubmit.co/faridramadhan03@gmail.com" method="POST" className="border-4 border-myprimary bg-mygreen p-10 w-fit mx-auto rounded-md drop-shadow-xl drop-shadow-black-500/50" autoComplete="off">
                             <div className="flex flex-col gap-6 text-myprimary">
                                 <div className="flex flex-col gap-2">
                                     <label className="font-semibold ">Nama</label>
